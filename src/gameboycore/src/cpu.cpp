@@ -1065,7 +1065,7 @@ namespace gb
                 break;
 
             default:
-                throw std::runtime_error("Unimplemented Instruction");
+                // TODO: throw std::runtime_error("Unimplemented Instruction");
                 break;
             }
 
@@ -1931,7 +1931,7 @@ namespace gb
                 break;
 
             default:
-                throw std::runtime_error("Unimplemented Instruction");
+                // TODO: throw std::runtime_error("Unimplemented Instruction");
                 break;
             }
 

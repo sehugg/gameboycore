@@ -77,7 +77,7 @@ namespace gb
                 break;
 
             default:
-                throw std::runtime_error("Unsupported cartridge type :(");
+                // TODO: throw std::runtime_error("Unsupported cartridge type :(");
                 break;
             }
 

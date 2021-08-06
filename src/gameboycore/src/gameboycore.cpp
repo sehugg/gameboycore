@@ -5,7 +5,7 @@
 
 #include <fstream>
 #include <memory>
-#include <exception>
+//#include <exception>
 
 namespace gb
 {
@@ -177,7 +177,7 @@ namespace gb
         std::ifstream file{ filename, std::ios::ate | std::ios::binary };
         if (!file.is_open())
         {
-            throw std::runtime_error(std::string("Could not load ROM file: " + filename));
+            // TODO: throw std::runtime_error(std::string("Could not load ROM file: " + filename));
         }
 
         auto size = (std::size_t)file.tellg();
